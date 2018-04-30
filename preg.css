@@ -2,11 +2,6 @@
   font-style: "Open Sans";
   font-weight: 700;
 }
-#nav{
-        list-style: none;
-        position: fixed;
-        right: 20px;
-}
 #silhouette1 {
 
   background-image: url("./assets/silhouette1.png");
@@ -37,35 +32,42 @@
 #intro-text {
   padding-top: 10em;
 }
-#type {
-  background-color: #495867;
-  height: 30.1em;
+#fetaldeaths, #fetaldeathsbyregion, #type {
+  background-color:  #495867;
 }
+#fetus {
+  margin: 4em;
+  margin-left: 13em;
+  height:8em;
+  position:absolute;
+}
+
+#motherpic {
+  margin: 4em;
+  margin-left: 4em;
+  height:20em;
+  position:absolute;
+}
+
 #source {
   text-align: right;
    font-size: 0.9em;
+   margin: 1em;
 }
+
 .container {
-  padding-top: 3em;
+  padding: 1.5em;
 }
-
-.tableauPlaceholder {
-  padding-top:1.6em;
-}
-
-
 
 h1 {
   font-style: "Open Sans";
   font-weight: 800;
-  color: #0b4c4b;
 }
 
 h3 {
   font-style: :"Open Sans";
   font-weight : bold;
   color: white;
-  padding-top: 1.6em;
 }
 p {
   font-size: 1.3em;

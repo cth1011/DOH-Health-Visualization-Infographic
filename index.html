@@ -31,7 +31,7 @@
       <body>
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-          <a class=" navbar-brand" id = 'logo' href="#"><img style='width: 4%; height: 4%;'
+          <a class=" navbar-brand" id = 'logo' href="#"><img style='width: 5%; height: 5%;'
             src="./assets/hospital.png">  HOME</a>
         </nav>
         <!-- LANDING PAGE -->
@@ -48,66 +48,89 @@
         </div>
 
         <!-- FIRST SLIDE -->
-        <div class="container" id="maternaldeath">
+        <div class="container-fluid" id="maternaldeath">
+            <div class='container'>
             <h1 style='color: #de3739;'>A RETURNING HEALTH CRISIS</h1>
-                <div class="row">
-                  <p class="col"> Maternal deaths are on the rise again. We can
+
+                  <p> Maternal deaths are on the rise again. We can
                     see that the number of maternal deaths are decreasing from
                     1960 to 1990. However, the numbers increased dramatically
                     from 1990 onwards observing an upward trajectory towards 2010.
                   </p>
+
                 </div>
-                <div class='tableauPlaceholder' id='viz1524985096661' style='position: relative'><noscript><a href='#'><img alt='Number of Maternal Deaths, 1960-2010 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PregnancyDOHData&#47;MaternalDeath&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PregnancyDOHData&#47;MaternalDeath' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PregnancyDOHData&#47;MaternalDeath&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1524985096661');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.65)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        </div>
+          </div>
+                <div class='container tableauPlaceholder' id='viz1524985096661' style='position: relative'><noscript><a href='#'><img alt='Number of Maternal Deaths, 1960-2010 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PregnancyDOHData&#47;MaternalDeath&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PregnancyDOHData&#47;MaternalDeath' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PregnancyDOHData&#47;MaternalDeath&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1524985096661');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.65)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
 
         <!-- SECOND SLIDE -->
-        <div class="container" id="fetaldeaths">
-            <h1 style='color:: #6eb3ae;'>IT'S NOT JUST THE MOTHERS</h1>
+        <div class="container-fluid" id="fetaldeaths">
+          <img src="./assets/fetus.png" id='fetus'>
+            <div class="container">
+            <h1 style='color: #6eb3ae;'>IT'S NOT JUST THE MOTHERS</h1>
                 <div class="row">
-                  <p class="col">The fetal death rate rose by shocking 125% from
+                  <p class="col" style="color:white;">The number of maternal
+                    deaths isn't the only issue. Fetuses are also threatened as well.
+                    In order to control for population, the fetal death rate was
+                    computed per 1,000 births. The fetal death rate rose by shocking 125% from
                      2003 to 2004. This could be explained the lowered total number
                      of baby deliveries from the previous year. Moreover, the
                      fetal death rate hasn’t improve much over the years, and
                      has maintained a steady rate from 2006 to 2010.
                    </p>
                 </div>
-        <div class='tableauPlaceholder' id='viz1524985635105' style='position: relative'><noscript><a href='#'><img alt='Number of Fetal Deaths per 1,000 Births, 2001-10 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PregnancyDOHData&#47;FetalDeaths&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PregnancyDOHData&#47;FetalDeaths' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PregnancyDOHData&#47;FetalDeaths&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1524985635105');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
         </div>
+        <div class='container tableauPlaceholder' id='viz1524985635105' style='position: relative'><noscript><a href='#'><img alt='Number of Fetal Deaths per 1,000 Births, 2001-10 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PregnancyDOHData&#47;FetalDeaths&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PregnancyDOHData&#47;FetalDeaths' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PregnancyDOHData&#47;FetalDeaths&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1524985635105');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
 
         <!-- THIRD SLIDE -->
-        <div class="container" id="fetaldeathsbyregion">
-            <h1 style='color: #9e3d22;'>NCR HAS THE HIGHEST FETAL DEATH RATE</h1>
-                <div class="row">
-                  <p class="col">Breaking it down further, we can see that NCR makes up approximately 62% of the fetal death rate in 2004. Region 6 also exhibited a 1566% growth from 2003 to 2004. Overall, NCR, Region 7, 4A, and 1 comprises majority of the fetal death rate within the Philippines. However, notice that NCR has decreased steadly over the years, but Region 7, 4A, and 1 haven't improved much.</p>
+        <div class="container-fluid" id="fetaldeathsbyregion">
+          <img src="./assets/exclamation-mark.png" id='fetus'>
+                <div class='container'>
+                  <h1 style='color: #9e3d22;'>NCR HAS THE HIGHEST FETAL DEATH RATE</h1>
+                  <p style='color: white;'>Breaking it down further, we can see that NCR makes up
+                    approximately 62% of the fetal death rate in 2004. Region 6
+                    also exhibited a 1566% growth from 2003 to 2004. Overall, NCR,
+                    Region 7, 4A, and 1 comprises majority of the fetal death rate
+                    within the Philippines. However, notice that NCR has decreased
+                    steadly over the years, but Region 7, 4A, and 1 haven't
+                    improved much.
+                  </p>
                 </div>
-        <div class='tableauPlaceholder' id='viz1524986655562' style='position: relative'><noscript><a href='#'><img alt='Fetal Death Rate by Region - 2003 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PregnancyDOHData&#47;FetalDeathRatebyRegion&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PregnancyDOHData&#47;FetalDeathRatebyRegion' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PregnancyDOHData&#47;FetalDeathRatebyRegion&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1524986655562');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.65)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        <div style='padding-bottom: 2em;'></div>
         </div>
+
+        <div class='container tableauPlaceholder' id='viz1524986655562' style='position: relative'><noscript><a href='#'><img alt='Fetal Death Rate by Region - 2003 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PregnancyDOHData&#47;FetalDeathRatebyRegion&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PregnancyDOHData&#47;FetalDeathRatebyRegion' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PregnancyDOHData&#47;FetalDeathRatebyRegion&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1524986655562');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.65)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <div style='padding-bottom: 2em;'></div>
+
 
         <!-- FOURTH SLIDE -->
         <div class="container-fluid" id='type'>
+          <img src="./assets/newborn.png" id='motherpic'>
             <div class="container" id="typeofpregnancy">
               <h1 style='color: #FFFFFF;'>THEIR LIVES AREN'T WORTH<span style='color: #de3739;'> RISKING</span></h1>
-                  <div class="row">
-                    <p class="col" style='color: #FFFFFF;'>Approximately 25% of
+                    <p style='color: #FFFFFF;'>Approximately 25% of
                       women were diagnosed with high-risk pregnancy. A high-risk
                       pregnancy is one that threatens the health or life of the
-                      mother or her fetus<sup>[1]</sup>. It often requires
+                      mother or her fetus, often requires
                       specialized care from specially trained providers<sup>[1]</sup>
                       .
                     </p>
-                  </div>
-                  <div class='row'>
-                    <h3 class="col" >Type of Pregnancy, 1996-2008</h3>
-                  </div>
-                  <div class='row'>
-                    <img class = 'img-fluid' style='padding-bottom:2em;' src='./assets/typeofpregnancy.png'>
-                  </div>
-                  <p id='source' style='color:white;'> Source: [1] https://www.nichd.nih.gov/health/topics/pregnancy/conditioninfo/high-risk</p>
+                    <h3>Type of Pregnancy, 1996-2008</h3>
+                    <img class = 'img-fluid' style="padding-top:2em;" src="./assets/typeofpregnancy.png">
 
+                  <p id='source' style='color:white;'> Source: [1] https://www.nichd.nih.gov/health/topics/pregnancy/conditioninfo/high-risk</p>
+                  <p style='color: #FFFFFF;'>Proper planning and health care can minimize the risk threatens
+                    both the mother and the child. Hospitals also might want to staff up.
+                    The chart below shows that there is an exponential increase
+                    of birth locations within hospitals. From 2003 to 2011, the
+                    number of deliveries increased by 151% to a total of 1,140,210
+                    deliveries within hospitals. Hence, hospitals must sufficiently
+                    be staffed as the number will only increase over the years.
+                  </p>
             </div>
         </div>
-
+        <div class='container tableauPlaceholder' id='viz1525098012208' style='position: relative'><noscript><a href='#'><img alt='Place of Birth, 1998-2011 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PregnancyDOHData&#47;HospitalTrend1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PregnancyDOHData&#47;HospitalTrend1' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PregnancyDOHData&#47;HospitalTrend1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1525098012208');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="./lib/jquery-2.2.3.min.js"></script>
         <!-- Bootstrap - latest compiled and minified JavaScript -->
