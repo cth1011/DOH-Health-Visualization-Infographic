@@ -37,16 +37,16 @@
 }
 #fetus {
   margin: 4em;
-  margin-left: 13em;
   height:8em;
-  position:absolute;
+  float:left;
+  position:relative;
 }
 
 #motherpic {
-  margin: 4em;
-  margin-left: 4em;
+  top: 4em;
+  float:left;
   height:20em;
-  position:absolute;
+  position:relative;
 }
 
 #source {
