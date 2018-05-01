@@ -8,6 +8,7 @@
   background-color: #a1c0d2;
   width:100%;
   background-repeat: no-repeat;
+  background-size:cover;
   margin: 0;
   background-position:left;
 }
@@ -18,7 +19,7 @@
   width:100%;
   background-repeat: no-repeat;
   margin: 0;
-  background-size:contain;
+  background-size:cover;
   background-position:bottom;
 }
 
@@ -68,7 +69,4 @@ h3 {
   font-style: :"Open Sans";
   font-weight : bold;
   color: white;
-}
-p {
-  font-size: 1.3em;
 }
