@@ -39,7 +39,7 @@
   margin: 4em;
   height:8em;
   float:left;
-  position:relative;
+  position:absolute;
 }
 
 #motherpic {
